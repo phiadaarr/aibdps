@@ -1,0 +1,9 @@
+{
+	"name": "Ona",
+	"image": "eu.repository.roche.com/cde-gitpod-docker-prd-l/ona-base:2.0",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "lts"
+		}
+	}
+}
