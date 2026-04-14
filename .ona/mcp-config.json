@@ -1,17 +1,10 @@
 {
   "mcpServers": {
     "mongodb": {
+      "name": "mongodb",
       "type": "stdio",
       "command": "npx",
-      "args": [
-        "-y",
-        "mongodb-mcp-server@latest",
-        "--readOnly"
-      ]
-      // connection string is provided directly via project secrets
-      // "env": {
-      //   "MDB_MCP_CONNECTION_STRING": "<MDB_MCP_CONNECTION_STRING>"
-      // }
+      "args": ["-y", "mongodb-mcp-server@latest", "--readOnly"]
     }
   }
 }
